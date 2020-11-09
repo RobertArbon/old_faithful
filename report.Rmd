@@ -65,7 +65,7 @@ summary(mod1)
 summary(mod2)
 ```
 
-The model with 2 clusters had the smallest value of the ICL, with a value of `r mod2@bestResult@criterionValue` compared to `r mod1@bestResult@criterionValue`. A plot of the optimal clustering is shown below. 
+The model with 2 component has the smallest value of the ICL, with a value of `r mod2@bestResult@criterionValue` compared to `r mod1@bestResult@criterionValue` for the model with 1 component. A plot of the optimal clustering is shown below. 
 
 ```{r}
 plot(mod2)
